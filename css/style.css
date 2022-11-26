@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@300&family=Righteous&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+
+.header-main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.header-main-img{
+    height: 120px;
+}
+
+.header-nav{
+    display: flex;
+    gap: 50px;
+}
+
+.header-nav-item{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 15px;
+}
+
+a:hover{
+    background-color: #45373ae5;
+    animation: mymove 1s infinite;
+    color: #e4c4d3;
+    padding: 15px;
+}
+
+
+.content-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 100px;
+    padding: 20px;
+}
+
+
