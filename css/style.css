@@ -8,6 +8,7 @@
 }
 body{
     width: 100%;
+    
 }
 
 .header-main{
@@ -32,7 +33,7 @@ body{
 
 .header-nav-item{
     font-family: 'Quicksand', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     cursor: pointer;
     padding: 15px;
     
@@ -46,13 +47,9 @@ a{
 a:hover{
     color: #e3b1c8;
     padding: 15px;
-}
+    font-size: 30px;
 
-.carrosel img{
-    width: 100%;
-    margin-bottom: 30px;
 }
-
 
 .content-title{
     display: flex;
@@ -65,13 +62,26 @@ a:hover{
     padding: 20px;
 }
 
+.carrosel img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
 .intro{
     background-color: #e4c4d3;
     border-radius: 15px;
     width: 95%;
     margin: auto;
+    margin-bottom: 50px;
 }
 
+.intro h2{
+    padding: 25px 25px 0 25px ;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
 .intro p{
     padding: 20px;
     text-align: justify;
@@ -79,6 +89,28 @@ a:hover{
     font-size: 25px;
 
 }
+
+.legislacao{
+    width: 95%;
+    background-color: #ddc7d1;
+    margin: auto;
+    height: 600px;
+}
+
+.legislacao h2{
+    font-size: 2px;
+    color: #e4c4d300;
+}
+
+
+
+
+
+
+
+
+
+
 
 .rodape{
     background-color: #45373A;
