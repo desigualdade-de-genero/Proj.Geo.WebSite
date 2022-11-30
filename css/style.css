@@ -83,34 +83,48 @@ a:hover{
     font-weight: bold;
 }
 .intro p{
-    padding: 20px;
+    padding: 15px;
     text-align: justify;
     font-family: 'Quicksand', sans-serif;
     font-size: 25px;
 
 }
+#napratica{
+    padding: 25px 25px 0 25px ;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
 
-.legislacao{
-    width: 95%;
-    background-color: #ddc7d1;
+.pratica{
+    width: 94%;
     margin: auto;
-    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 30px;
 }
 
-.legislacao h2{
-    font-size: 2px;
-    color: #e4c4d300;
+.p{
+    width: 615px;
+    
+    border-radius: 15px;
+    background-color: #e2d7ff;
+}
+.p h2{
+    padding: 25px 25px 0 25px ;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
-
-
-
-
-
-
-
-
-
+.p p{
+    padding: 15px;
+    text-align: justify;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+}
 
 .rodape{
     background-color: #45373A;
