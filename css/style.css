@@ -8,7 +8,7 @@
 }
 body{
     width: 100%;
-    
+    font-family: 'Quicksand', sans-serif;
 }
 
 .header-main{
@@ -17,7 +17,7 @@ body{
     align-items: center;
     justify-content: space-around;
     padding: 24px;
-    position: sticky;
+    
     top: 0;
     background-color: rgba(255, 255, 255, 0.973);
     border-bottom: 0.05px solid rgb(218, 218, 218);
@@ -32,7 +32,6 @@ body{
 }
 
 .header-nav-item{
-    font-family: 'Quicksand', sans-serif;
     font-size: 25px;
     cursor: pointer;
     padding: 15px;
@@ -78,7 +77,7 @@ a:hover{
 .intro h2{
     padding: 25px 25px 0 25px ;
     font-family: 'Quicksand', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -86,15 +85,17 @@ a:hover{
     padding: 15px;
     text-align: justify;
     font-family: 'Quicksand', sans-serif;
-    font-size: 25px;
-
+    font-size: 18px;
 }
+
 #napratica{
     padding: 25px 25px 0 25px ;
     font-family: 'Quicksand', sans-serif;
     font-size: 25px;
     text-transform: uppercase;
     font-weight: bold;
+    margin-left: 25px;
+    margin-bottom: 15px;
 }
 
 .pratica{
@@ -107,7 +108,6 @@ a:hover{
 
 .p{
     width: 615px;
-    
     border-radius: 15px;
     background-color: #e2d7ff;
 }
@@ -123,19 +123,114 @@ a:hover{
     padding: 15px;
     text-align: justify;
     font-family: 'Quicksand', sans-serif;
-    font-size: 25px;
+    font-size: 18px;
+}
+.conq{
+    background-color: #ddc7d1;
+}
+
+
+
+
+
+
+
+
+.ind{
+    background-color: #ffe4e1;
+    width: 95%;
+    border-radius: 30px;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+#indicacoes{
+padding-top: 20px;
+padding-left: 15px;
+font-size: 30px;
+text-transform:uppercase;
+margin-left: 15px;
+margin-top: 25px;
+}
+
+.cartaz{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container{
+    background-color: white ;
+    margin: 20px;
+    padding: 20px;
+    width: 380px;
+    height: 130px;
+    box-shadow: 5px 5px 5px 5px #00000031;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+.poster{
+    width: 80px;
+}
+.indica-titulo{
+    font-weight: bolder;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+
+.indica-descricao{
+    font-size: 12px;
+}
+
+.integ{
+margin: auto;
+width: 95%;
+}
+#integrante{
+    text-transform:uppercase;
+    margin-left: 80px;
+    margin-top: 25px;
+    font-size: 30px;
+}
+
+
+.apresentacao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    
+}
+
+.aluno{
+width: 400px;
+padding: 15px;
+text-align: center;
+color: black;
+}
+
+.aluno img{
+    width: 150px;
+    border-radius: 100px;
+}
+
+.aluno img:hover{
+    border: 5px solid #e3b1c8;
+}
+
+.aluno p{
+    font-size: 20px;
 }
 
 .rodape{
     background-color: #45373A;
     margin-top: 50px;
-
-}
-.logrodape{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
 }
 
 .logrodape img{
@@ -150,4 +245,9 @@ a:hover{
     line-height: 25px;
     color: #ddc7d1;
     padding: 20px;
+}
+.logrodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
