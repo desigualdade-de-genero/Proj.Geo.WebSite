@@ -9,6 +9,7 @@
 body{
     width: 100%;
     font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
 }
 
 .header-main{
@@ -17,9 +18,9 @@ body{
     align-items: center;
     justify-content: space-around;
     padding: 24px;
-    
+    position: sticky;
     top: 0;
-    background-color: rgba(255, 255, 255, 0.973);
+    background-color: rgba(255, 255, 255, 0.897);
     border-bottom: 0.05px solid rgb(218, 218, 218);
 }
 .header-main-img{
@@ -104,12 +105,17 @@ a:hover{
     display: flex;
     flex-wrap: wrap;
     gap: 20px 30px;
+    margin-bottom: 30px;
 }
 
 .p{
     width: 615px;
     border-radius: 15px;
     background-color: #e2d7ff;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .p h2{
     padding: 25px 25px 0 25px ;
@@ -120,21 +126,53 @@ a:hover{
 }
 
 .p p{
-    padding: 15px;
+    padding: 20px;
     text-align: justify;
     font-family: 'Quicksand', sans-serif;
     font-size: 18px;
 }
+
+.p img{
+    
+}
+
+
+#graficotrab{
+    width: 400px;
+}
 .conq{
     background-color: #ddc7d1;
+    width: 95%;
+    margin: auto;
+    border-radius: 15px;
+    
+}
+
+#conquistas{
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.cont-conq{
+    padding: 20px;
+    text-align: justify;
+}
+
+.textegraf{
+display: flex;
+flex-direction: row;
+gap: 0px 15px;
 }
 
 
 
-
-
-
-
+figcaption{
+    text-align: center;
+    font-size: 12px;
+}
 
 .ind{
     background-color: #ffe4e1;
