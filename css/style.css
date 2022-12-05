@@ -78,7 +78,7 @@ a:hover{
 .intro h2{
     padding: 25px 25px 0 25px ;
     font-family: 'Quicksand', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -89,10 +89,70 @@ a:hover{
     font-size: 18px;
 }
 
+.legislacao-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+}
+
+#legislacao{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.leis{
+    display: grid;
+    grid-template-areas: "lei1 lei3"
+                         "lei1 lei3"
+                         "lei2 lei3"
+                         "lei2 mas";
+    align-items: center;
+    
+}
+.lei{
+    margin: 25px;
+    background-color: #ffe4e1;
+    border-radius: 25px;
+    width: 310px;
+    padding: 25px;
+    text-align: center;
+}
+.lei p{
+    font-weight: bold;
+}
+#marcaram{
+    font-size: 20px;
+}
+blockquote{
+    font-style: oblique;
+}
+
+#lei1{
+grid-area: lei1;
+}
+#lei2{
+    grid-area: lei2;
+}
+#lei3{
+    grid-area: lei3;
+}
+#mas{
+    grid-area: mas;
+}
+.mas{
+    margin: 25px;
+    font-size: 25px;
+    border-radius: 25px;
+    width: 250px;
+    position: relative;
+    bottom: 80px;
+}
+
 #napratica{
     padding: 25px 25px 0 25px ;
     font-family: 'Quicksand', sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     text-transform: uppercase;
     font-weight: bold;
     margin-left: 25px;
@@ -100,7 +160,7 @@ a:hover{
 }
 
 .pratica{
-    width: 94%;
+    width: 95%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -109,7 +169,7 @@ a:hover{
 }
 
 .p{
-    width: 615px;
+    width: 690px;
     border-radius: 15px;
     background-color: #e2d7ff;
     text-align: justify;
