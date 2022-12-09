@@ -378,7 +378,9 @@ figcaption {
   text-align: center;
   font-size: 12px;
 }
-
+#legendapol{
+  margin-left: -25px;
+}
 .ind {
   background-color: #ffe4e1;
   width: 95%;
