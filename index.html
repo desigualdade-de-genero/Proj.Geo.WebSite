@@ -5,27 +5,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/css/splide.min.css" integrity="sha256-6YrKt7vMU9e4bwtlblASqhvvEt4/0JEQJ/zyWOFKnaM=" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/css/splide-core.min.css" integrity="sha256-8gSXJwQPI1Qf6z9TkSJdI1CPinvymYP7xsXFKJC8vUs=" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <title>Desigualdade de Gênero</title>
 </head>
 
 <body>
     <header class="header-main">
+            <button class="button-menu-open" type="button"><i class="fa-solid fa-bars"></i></button>
         <img class="header-main-img" src="img/logogeo.png"
             alt="logo do instituto federal baiano da disciplina de geografia">
         <nav class="header-nav">
-            <a class="header-nav-item" href="#introducao">Introdução</a>
-            <a class="header-nav-item" href="#legislacao">Legislação</a>
-            <a class="header-nav-item" href="#napratica">Na prática</a>
-            <a class="header-nav-item" href="#conquistas">Conquistas</a>
-            <a class="header-nav-item" href="#indicacoes">Indicações</a>
+            <div class="menu-logo-mobile">
+                <button class="button-menu-close" type="button"><i class="fa-solid fa-bars"></i></button>
+                <img src="img/logogeo.png"
+                     alt="logo do instituto federal baiano da disciplina de geografia">
+            </div>
+            <div class="menu-navegacao">
+                <ul>
+                    <li><a class="header-nav-item" href="#introducao">Introdução</a></li>
+                    <li><a class="header-nav-item" href="#legislacao">Legislação</a></li>
+                    <li><a class="header-nav-item" href="#napratica">Na prática</a></li>
+                    <li><a class="header-nav-item" href="#conquistas">Conquistas</a></li>
+                    <li><a class="header-nav-item" href="#indicacoes">Indicações</a></li>                                       
+                </ul>
+            </div>
         </nav>
     </header>
     <main class="content">
         <h1 class="content-title">Desigualdade de Gênero</h1>
         <section class="carrosel">
-            <img src="./img/provisorio.png" alt="">
+            <section class="splide" aria-label="Splide Basic HTML Example">
+                <div class="splide__track">
+                    <div class="splide__list">
+                        <div class="splide__slide">
+                            <div class="splide__slide__content">
+                                <img src="./img/provisorio.png" alt="">
+                            </div>
+                        </div>
+                        <div class="splide__slide">
+                            <div class="splide__slide__content">
+                                <img src="./img/img2.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="splide__slide">
+                            <div class="splide__slide__content">
+                                <img src="./img/img3.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </section>
+   
 
         <section class="info">
             <div class="todas">
@@ -195,51 +229,51 @@
                 <div class="ind">
                     <h2 id="indicacoes">Indicações</h2>
                     <div class="cartaz">
-                        <div class="container">
-                            <img class="poster" src="img/filme2.jpg" alt="filme - AS SUFRAGISTAS">
-                            <p class="indica-titulo">FILME: AS SUFRAGISTAS</p>
-                            <p class="indica-descricao"> 14 (classificação indicativa) 2015 ‧ <br> Drama/Obra de Época ‧
-                                1h 46m
-                                <br>Aborda: a luta pelo voto feminino.
-                            </p>
-                        </div>
+                        <div class="cartaz-content">
+                            <div class="container">
+                                <img class="poster" src="img/filme2.jpg" alt="filme - AS SUFRAGISTAS">
+                                <div>
+                                    <p class="indica-titulo">FILME: AS SUFRAGISTAS</p>
+                                <p class="indica-descricao"> 14 (classificação indicativa) 2015 ‧ Drama/Obra de Época ‧ 1h 46mAborda: a luta pelo voto feminino.
+                                </p>
+                                </div>
+                            </div>
+    
+                            <div class="container">
+                                <img id="filme2" class="poster" src="img/filme3.jpg"
+                                    alt="FILME (CURTA-METRAGEM): VIROU O JOGO – A HISTÓRIA DE PINTADAS">
+                                <div>
+                                <p class="indica-titulo">FILME: VIROU O JOGO</p>
+                                <p class="indica-descricao"> 2012 ‧ Documentário (CURTA-METRAGEM) ‧ 26m ‧ Aborda: A mudança no pensamento de uma sociedade machista.</p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <img class="poster" src="img/filme4.jpg.crdownload" alt="FILME: O SILÊNCIO DAS INOCENTES">
+                                <div>
+                                <p class="indica-titulo">FILME: O SILÊNCIO DAS INOCENTES</p>
+                                <p class="indica-descricao">2010 ‧ Documentário ‧ 52 m Aborda: A vida e história de mulheres vítimas de violência doméstica.
+                                </p>
+                                </div>
+                            </div>
+    
+                            <div class="container">
+                                <img class="poster" src="img/filme5.webp" alt="FILME: VALENTE">
+                                <div>
 
-                        <div class="container">
-                            <img id="filme2" class="poster" src="img/filme3.jpg"
-                                alt="FILME (CURTA-METRAGEM): VIROU O JOGO – A HISTÓRIA DE PINTADAS">
-                            <p class="indica-titulo">FILME: VIROU O JOGO</p>
-                            <p class="indica-descricao"> 2012 ‧ Documentário (CURTA-METRAGE-<br>M) ‧ 26m
-                                ‧ Aborda: A mudança no pen-<br>samento de uma sociedade machista.
-                            </p>
-                        </div>
-                        <div class="container">
-                            <img class="poster" src="img/filme4.jpg.crdownload" alt="FILME: O SILÊNCIO DAS INOCENTES">
-                            <p class="indica-titulo">FILME: O SILÊNCIO DAS INOCENTES</p>
-                            <p class="indica-descricao">2010 ‧ Documentário ‧ 52 m Aborda:<br>
-                                A vida e história de mulheres vítimas<br> de violência doméstica.
-                            </p>
-                        </div>
+                                <p class="indica-titulo">FILME: VALENTE</p>
+                                <p class="indica-descricao"> 2012 ‧ Aventura ‧ 1h 33m Aborda: A quebra de padrões impostos, representan- do a mulher contemporânea.
+                                </p>
+                                </div>
+                            </div>
+    
+                            <div class="container">
+                                <img class="poster" src="img/filme1.jpg" alt="">
+                                <div>
 
-                        <div class="container">
-                            <img class="poster" src="img/filme5.webp" alt="FILME: VALENTE">
-                            <p class="indica-titulo">FILME: VALENTE</p>
-                            <p class="indica-descricao"> 2012 ‧ Aventura ‧ 1h 33m
-                                Aborda: A que- <br> bra de padrões impostos, representan- <br> do a mulher
-                                contemporânea.
-                            </p>
-                        </div>
-
-                        <div class="container">
-                            <img class="poster" src="img/filme1.jpg" alt="">
-                            <p class="indica-titulo">FILME: ENOLA HOLMES</p>
-                            <p class="indica-descricao">2020 ‧ Aventura ‧ 2h 3m ‧ Aborda: <br> Protagonismo feminino,
-                                liberdade e <br> possibilidade de escolha </p>
-                        </div>
-
-                        <div class="container">
-                            <img class="poster" src="" alt="">
-                            <p class="indica-titulo"></p>
-                            <p class="indica-descricao"></p>
+                                <p class="indica-titulo">FILME: ENOLA HOLMES</p>
+                                <p class="indica-descricao">2020 ‧ Aventura ‧ 2h 3m ‧ Aborda: Protagonismo feminino, liberdade e possibilidade de escolha </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -288,17 +322,9 @@
             </div>
 
     </footer>
-    <script>
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/js/splide.min.js" integrity="sha256-qtSu/7zFd1zx2GaGN7yAuWyIXuxC7IVrfSpncRDxUII=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
