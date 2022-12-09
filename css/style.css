@@ -178,6 +178,10 @@ grid-area: lei1;
     align-items: center;
     padding: 20px;
 }
+
+#trabalho{
+flex-grow: 1;
+}
 .p h2{
     padding: 25px 25px 0 25px ;
     font-family: 'Quicksand', sans-serif;
