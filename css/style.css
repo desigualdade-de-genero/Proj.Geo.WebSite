@@ -369,6 +369,17 @@ blockquote {
   padding: 20px;
 }
 
+.empod{
+  background-color: #e3b1c8;
+  width: 95%;
+  margin: auto;
+  border-radius: 15px;
+  margin-top: 25px;
+  padding: 25px;
+}
+#empoderamento{
+  text-transform: uppercase;
+}
 .cont-conq {
   padding: 20px;
   text-align: justify;
