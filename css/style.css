@@ -169,7 +169,7 @@ grid-area: lei1;
 }
 
 .p{
-    width: 624px;
+    width: 696px;
     border-radius: 15px;
     background-color: #e2d7ff;
     text-align: justify;
@@ -191,16 +191,23 @@ flex-grow: 1;
 }
 
 .p p{
+    text-indent:5px ;
     padding: 20px;
     text-align: justify;
     font-family: 'Quicksand', sans-serif;
     font-size: 18px;
 }
 
-
-
 #graficotrab{
     width: 400px;
+}
+
+.p img{
+    width: 300px;
+}
+
+#formula1{
+    margin-top: -50px;
 }
 .conq{
     background-color: #ddc7d1;
