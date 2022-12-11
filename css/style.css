@@ -375,6 +375,7 @@ blockquote {
   height: 20%;
 }
 
+
 #conquistas {
   text-align: center;
   font-size: 25px;
@@ -414,6 +415,14 @@ blockquote {
 iframe{
   margin-top: 25px;
   width: 80%;
+}
+
+figure{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 figcaption {
