@@ -159,6 +159,10 @@ a {
     padding: 25px;
     margin-bottom: 50px;
   }
+
+  .refer p{
+    text-align: left;
+  }
   #referencias{
     text-transform: uppercase;
   }
