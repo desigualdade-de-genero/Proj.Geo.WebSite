@@ -167,9 +167,13 @@ grid-area: lei1;
     gap: 20px 30px;
     margin-bottom: 30px;
 }
-
+.content-mx2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
 .p{
-    width: 696px;
+    width: calc(50% - 20px);
     border-radius: 15px;
     background-color: #e2d7ff;
     text-align: justify;
@@ -369,3 +373,4 @@ color: black;
     justify-content: center;
     align-items: center;
 }
+
