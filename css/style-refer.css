@@ -148,17 +148,23 @@ a {
   letter-spacing: 5px;
   font-size: min(90px, 15vw);
   padding: 20px;
-}
+} 
+#referencias{
+  text-transform: uppercase;
+  padding-right: 25px;
 
+}
 .refer{
     background-color: #e3b1c8;
     width: 95%;
     margin: auto;
     border-radius: 15px;
-    margin-top: 25px;
-    padding: 25px;
+    margin-top: 5px;
+    padding: 15px;
     margin-bottom: 50px;
   }
-  #referencias{
-    text-transform: uppercase;
-  }
+.text-ref{
+  width: 100%;
+  word-wrap: break-word;
+
+}
