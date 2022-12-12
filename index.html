@@ -5,45 +5,92 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/css/splide.min.css"
+        integrity="sha256-6YrKt7vMU9e4bwtlblASqhvvEt4/0JEQJ/zyWOFKnaM=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/css/splide-core.min.css"
+        integrity="sha256-8gSXJwQPI1Qf6z9TkSJdI1CPinvymYP7xsXFKJC8vUs=" crossorigin="anonymous">
+    <link rel="shortcut icon" type="imagem/x-icon" href="img/logogeo.png" />
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.scss">
     <title>Desigualdade de Gênero</title>
 </head>
 
 <body>
     <header class="header-main">
+        <button class="button-menu-open" type="button"><i class="fa-solid fa-bars"></i></button>
         <img class="header-main-img" src="img/logogeo.png"
             alt="logo do instituto federal baiano da disciplina de geografia">
         <nav class="header-nav">
-            <a class="header-nav-item" href="#introducao">Introdução</a>
-            <a class="header-nav-item" href="#legislacao">Legislação</a>
-            <a class="header-nav-item" href="#napratica">Na prática</a>
-            <a class="header-nav-item" href="#conquistas">Conquistas</a>
-            <a class="header-nav-item" href="#indicacoes">Indicações</a>
+            <div class="menu-logo-mobile">
+                <button class="button-menu-close" type="button"><i class="fa-solid fa-bars"></i></button>
+                <img src="img/logogeo.png" alt="logo do instituto federal baiano da disciplina de geografia">
+            </div>
+            <div class="menu-navegacao">
+                <ul>
+                    <li><a class="header-nav-item" href="#introducao">Introdução</a></li>
+                    <li><a class="header-nav-item" href="#linkintro">Legislação</a></li>
+                    <li><a class="header-nav-item" href="#linkpratica">Na prática</a></li>
+                    <li><a class="header-nav-item" href="#linkconq">Conquistas</a></li>
+                    <li><a class="header-nav-item" href="#rolo">Empoderamento </a></li>
+                    <li><a class="header-nav-item" href="#linkindica">Indicações</a></li>
+                    <li><a class="header-nav-item" href="referencias.html">Referências</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
     <main class="content">
         <h1 class="content-title">Desigualdade de Gênero</h1>
         <section class="carrosel">
-            <img src="./img/provisorio.png" alt="">
-        </section>
+            <section class="splide" aria-label="Splide Basic HTML Example">
+                <div class="splide__track">
+                    <div id="introducao" class="splide__list">
+                        <div class="splide__slide">
+                            <div class="splide__slide__content">
+                                <img src="./img/provisorio.png" alt="">
+                            </div>
+                        </div>
+                        <div class="splide__slide">
+                            <div class="splide__slide__content">
+                                <img src="./img/banner1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="splide__slide">
+                            <div class="splide__slide__content">
+                                <img src="./img/banner2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="splide__slide">
+                            <div class="splide__slide__content">
+                                <img src="./img/banner3.png" alt="">
+                            </div>
 
+                        </div>
+                        <div class="splide__slide">
+                            <div class="splide__slide__content">
+                                <img src="./img/banner5.png" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+            </section>
+        </section>
         <section class="info">
             <div class="todas">
-                <div class="intro">
-                    <h2 id="introducao">Introdução</h2>
+                <div id="linkintro" class="intro">
+                    <h2>Introdução</h2>
                     <p>Desde o início da humanidade, o homem utilizou de sua força física para dominar as relações
-                        sociais. Esse domínio começou no âmbito familiar privado e estendeu-se ao âmbito público com o
-                        passar do tempo. As mulheres ficaram sob o domínio de homens, e os espaços públicos relativos ao
-                        comércio, às empresas, à política e às ciências foram dominados quase que exclusivamente por
-                        eles até o século XX.
-                        A desigualdade de gênero reforça uma situação de violência, que pode ser física, sexual,
-                        psicológica, social, patrimonial ou moral. Muitas vezes, as mulheres não encontram apoio social
+                        sociais, esse domínio começou no âmbito familiar privado e estendeu-se ao âmbito público com o
+                        passar do tempo. As mulheres ficaram sob o domínio de homens, assim como os espaços públicos
+                        relativos ao comércio, às empresas, à política e às ciências, o que ocorreu quase que
+                        exclusivamente nesses até o século XX.
+                        A desigualdade de gênero reforça uma situação de violência que pode ter diversas formas. Muitas
+                        vezes, as mulheres não encontram apoio social
                         ou do Estado para desfazer esse ciclo. Para efetivar a mudança é preciso que essa discussão
                         esteja sempre em evidência.
-                        Então, em primeiro lugar, é preciso reconhecer o valor da mulher em nossa sociedade, que tem o
-                        mesmo peso e a mesma importância que o do homem. É preciso, acima de tudo, tratar a mulher com
-                        respeito e garantir a ela a equidade necessária para o seu pleno desenvolvimento social. Somente
-                        assim é possível ter-se uma sociedade amplamente democrática.</p>
+                    </p>
                 </div>
                 <div class="legislacao-box">
                     <div class="informativo">
@@ -70,83 +117,81 @@
                                 de funções públicas.</blockquote>
                         </div>
                         <div id="mas" class="mas">
-                            <h1>Mas...</h1>
+                            <h1 id="linkpratica">Mas...</h1>
                         </div>
                     </div>
                 </div>
                 <h2 id="napratica">Na prática</h2>
                 <div class="pratica">
-                    <div class="content-mx2">
-                        <div class="p" id="pol">
-                            <h2>Política</h2>
-                            <p>O direito de votar foi conquistado pelas mulheres apenas
-                                após muita luta em 1932, mas, mesmo quando puderam se tornar elegíveis
-                                enfrentam diversas dificuldades, a dupla jornada de trabalho tendo que cuidar da
-                                casa e dos filhos não proporciona tempo para pensar na vida política, a rejeição
-                                vinda da sociedade e dos partidos políticos que não incentivam a participação
-                                feminina mesmo sendo obrigados a cumprir uma cota de mulheres candidatas durantes as
-                                eleições, fato que não ajuda já que existem candidaturas falsas ou que não tem qualquer
-                                apoio do partido para se eleger.</p>
-    
-    
-                            <p>O direito de votar foi conquistado pelas mulheres apenas
-                                após muita luta em 1932, mas, mesmo quando puderam se tornar elegíveis
-                                enfrentam diversas dificuldades, a dupla jornada de trabalho tendo que cuidar da
-                                casa e dos filhos não proporciona tempo para pensar na vida política, a rejeição
-                                vinda da sociedade e dos partidos políticos que não incentivam a participação
-                                feminina mesmo sendo obrigados a cumprir uma cota de mulheres candidatas durantes as
-                                eleições, fato que não ajuda já que existem candidaturas falsas ou que não tem qualquer
-                                apoio do partido para se eleger. Apesar de o eleitorado feminino ser a maioria,
-                                como mostrado na imagem abaixo, esse cenário não é evidenciado nos parlamentos,
-                                trazendo ausência da legitimidade democrática. Para alcançar medidas que busquem
-                                igualdade de gênero é necessário a presença das mulheres na política, visto que a
-                                ausência em debates e discussões políticas torna essa causa distante, já que é
-                                nas instâncias formais do poder que as demandas sociais são atendidas. </p>
-                            <figure>
-                                <img src="img/graficoconquista.jpg" alt="">
-                                <figcaption>FONTE: CNM- Confederação Nacional de Municípios (Adaptado).</figcaption>
-                            </figure>
-                        </div>
-                        <div class="p">
-                            <h2>Esporte</h2>
-                            <p>O reflexo dos papéis de gêneros tradicionais está presente no mundo dos esportes,
-                                e de forma explicita. Desde a infância, e por influencia da mídia, esportes como
-                                futebol, basquete e hóquei são colocados com modalidades masculinas por exigir mais
-                                fisicamente, enquanto a patinação e a ginástica artística são consideradas modalidades
-                                femininas já que são mais “leves” e mais graciosas as praticantes. Ou seja, as crianças
-                                já crescem no universo esportivo com essa segregação de gêneros. <br>
-                                Uma das questões mais comentadas na atualidade é a diferença salarial
-                                gritante, em que as mulheres fazem a mesma quantidade de trabalho e não
-                                possuem o mesmo reconhecimento que os homens. Estimativas afirmam que atletas
-                                masculinos de basquete, golfe, futebol, beisebol e tênis ganham de 15% a 100% a
-                                mais do que atletas do sexo feminino. Além disso, a mídia possui papel atenuador
-                                da situação, pois apesar de as mulheres representarem 40% dos atletas, elas continuam
-                                a receber apenas 4% da cobertura total da mídia esportiva impressa e transmitida, incluindo
-                                as Olimpíadas ou a Copa do Mundo.
-                                <br><br> <b>- Futebol</b> <br>
-    
-                                A Seleção Feminina de Futebol dos Estados Unidos foram as responsáveis por dar voz à
-                                desigualdade de gênero no futebol após ganharem a Copa do Mundo de 2015, na qual a seleção
-                                que já ganhou 4 Copas do Mundo revelou ganhar ¼ do que ganha a seleção masculina, que nunca
-                                ganhou o torneio.
-                                <br>
-                            </p>
-    
-                            <figure>
-                                <img src="img/graficoesporte.jpg" alt="gráfico esporte">
-                                <figcaption>Fonte: Congresso em Foco, 2016</figcaption>
-                            </figure>
-                            <p id="formula1">
-                                <br><br> <b>- Formula 1</b> <br>
-                                A formula 1 é um desses exemplos de desigualdade gênero, em que o espaço é predominantemente
-                                masculino e as mulheres são acusadas de apenas se interessar nos pilotos. A pioneira a
-                                pilotar na categoria foi a Maria Teresa de Filippis, em 1958, que contrariou quem disse que
-                                “o único capacete de mulher é o secador de cabelo” e venceu algumas corridas. Atualmente,
-                                não há mulheres correndo na categoria, mas um nome feminino com feitos inéditos vem ganhando
-                                espaço, Jamie Chadwick, corredora da W series, uma categoria feminina base do esporte
-                                principal.
-                            </p>
-                        </div>
+                    <div class="p">
+                        <h2>Política</h2>
+                        <p>O direito de votar foi conquistado pelas mulheres apenas
+                            após muita luta em 1932, mas, mesmo quando puderam se tornar elegíveis
+                            enfrentam diversas dificuldades, a dupla jornada de trabalho tendo que cuidar da
+                            casa e dos filhos não proporciona tempo para pensar na vida política, a rejeição
+                            vinda da sociedade e dos partidos políticos que não incentivam a participação
+                            feminina mesmo sendo obrigados a cumprir uma cota de mulheres candidatas durantes as
+                            eleições, fato que não ajuda já que existem candidaturas falsas ou que não tem qualquer
+                            apoio do partido para se eleger.</p>
+
+
+                        <p>O direito de votar foi conquistado pelas mulheres apenas
+                            após muita luta em 1932, mas, mesmo quando puderam se tornar elegíveis
+                            enfrentam diversas dificuldades, a dupla jornada de trabalho tendo que cuidar da
+                            casa e dos filhos não proporciona tempo para pensar na vida política, a rejeição
+                            vinda da sociedade e dos partidos políticos que não incentivam a participação
+                            feminina mesmo sendo obrigados a cumprir uma cota de mulheres candidatas durantes as
+                            eleições, fato que não ajuda já que existem candidaturas falsas ou que não tem qualquer
+                            apoio do partido para se eleger. Apesar de o eleitorado feminino ser a maioria,
+                            como mostrado na imagem abaixo, esse cenário não é evidenciado nos parlamentos,
+                            trazendo ausência da legitimidade democrática. Para alcançar medidas que busquem
+                            igualdade de gênero é necessário a presença das mulheres na política, visto que a
+                            ausência em debates e discussões políticas torna essa causa distante, já que é
+                            nas instâncias formais do poder que as demandas sociais são atendidas. </p>
+                        <figure>
+                            <img src="img/graficoconquista.jpg" alt="">
+                            <figcaption>FONTE: CNM- Confederação Nacional de Municípios (Adaptado).</figcaption>
+                        </figure>
+                    </div>
+                    <div class="p">
+                        <h2>Esporte</h2>
+                        <p>O reflexo dos papéis de gêneros tradicionais está presente no mundo dos esportes,
+                            e de forma explicita. Desde a infância, e por influencia da mídia, esportes como
+                            futebol, basquete e hóquei são colocados com modalidades masculinas por exigir mais
+                            fisicamente, enquanto a patinação e a ginástica artística são consideradas modalidades
+                            femininas já que são mais “leves” e mais graciosas as praticantes. Ou seja, as crianças
+                            já crescem no universo esportivo com essa segregação de gêneros. <br>
+                            Uma das questões mais comentadas na atualidade é a diferença salarial
+                            gritante, em que as mulheres fazem a mesma quantidade de trabalho e não
+                            possuem o mesmo reconhecimento que os homens. Estimativas afirmam que atletas
+                            masculinos de basquete, golfe, futebol, beisebol e tênis ganham de 15% a 100% a
+                            mais do que atletas do sexo feminino. Além disso, a mídia possui papel atenuador
+                            da situação, pois apesar de as mulheres representarem 40% dos atletas, elas continuam
+                            a receber apenas 4% da cobertura total da mídia esportiva impressa e transmitida, incluindo
+                            as Olimpíadas ou a Copa do Mundo.
+                            <br><br> <b>- Futebol</b> <br>
+
+                            A Seleção Feminina de Futebol dos Estados Unidos foram as responsáveis por dar voz à
+                            desigualdade de gênero no futebol após ganharem a Copa do Mundo de 2015, na qual a seleção
+                            que já ganhou 4 Copas do Mundo revelou ganhar ¼ do que ganha a seleção masculina, que nunca
+                            ganhou o torneio.
+                            <br>
+                        </p>
+
+                        <figure>
+                            <img src="img/graficoesporte.jpg" alt="gráfico esporte">
+                            <figcaption>Fonte: Congresso em Foco, 2016</figcaption>
+                        </figure>
+                        <p id="formula1">
+                            <br><br> <b>- Formula 1</b> <br>
+                            A formula 1 é um desses exemplos de desigualdade gênero, em que o espaço é predominantemente
+                            masculino e as mulheres são acusadas de apenas se interessar nos pilotos. A pioneira a
+                            pilotar na categoria foi a Maria Teresa de Filippis, em 1958, que contrariou quem disse que
+                            “o único capacete de mulher é o secador de cabelo” e venceu algumas corridas. Atualmente,
+                            não há mulheres correndo na categoria, mas um nome feminino com feitos inéditos vem ganhando
+                            espaço, Jamie Chadwick, corredora da W series, uma categoria feminina base do esporte
+                            principal.
+                        </p>
                     </div>
                     <div id="trabalho" class="p">
                         <h2>Trabalho</h2>
@@ -179,8 +224,8 @@
                             que historicamente têm alta empregabilidade de mulheres foram impactados, como educação,
                             serviços domésticos e educação.
                         </p>
-                        <figure>
-                            <img id="graficotrab" src="img/trabalho.jpg" alt="lacre">
+                        <figure id="linkconq">
+                            <img id="graficotrab" src="img/trabalho.jpg" alt="graficotrabalho">
                             <figcaption>Fonte: Toda Matéria</figcaption>
                         </figure>
                     </div>
@@ -190,58 +235,128 @@
                 <div class="conq">
                     <h2 id="conquistas">Conquistas</h2>
                     <div class="cont-conq">
+                        <p>Ao logo do tempo o acesso à educação por vezes foi negada às mulheres no Brasil, somente em
+                            1827 elas puderam ingressar nas escolas e em 1879 lhes permitiram a entrada nas
+                            universidades. Apesar de o machismo estrutural oprimi-las nesses ambientes, essas conquistas
+                            são muito importantes para as mulheres alcançarem sua independência. O estatuto da mulher
+                            casada, de 1962, também contribuiu para isso, ele assegurava que as mulheres casadas não
+                            precisavam mais da autorização do marido para trabalhar. O direito a prática do futebol
+                            também era proibida desde a Era Vargas, considerava-se que o esporte era incompatível com as
+                            “condições de sua natureza”, esse decreto foi revogado em 1979.
+                            Em 1988, após pressões de feministas e movimentos populares nas ruas, as mulheres obtiveram
+                            legalmente o título de cidadãs, com os mesmos direitos e deveres dos homens, ao menos
+                            perante a Constituição Federal daquele ano. No entanto, as mulheres ainda sofrem agressões
+                            vindas da sociedade que acredita ter poder sobre elas. Algumas leis foram estabelecidas para
+                            tentar amenizar e punir essas situações, como a Lei do Feminicídio de 2015 e a Lei do
+                            Assédio de 2018 que considerara a importunação sexual como crime.</p>
+                        <img id="rolo" src="/img/rolo de filme.png"
+                            alt="rolo de filme sobre conquistas adquirida ao longo do tempo">
+                    </div>
 
+                </div>
+
+
+                <div class="empod">
+                    <h2 id="empoderamento">Feminismo e Empoderamento feminino</h2>
+                    <div class="text-empodera">
+                        <p>
+                            <br>Podemos observar diversas conquistas das mulheres frente a luta contra a desigualdade de
+                            gênero, essas conquistas são relacionadas ao feminismo, surgido na Inglaterra no século XIX.
+                            <br> <br>
+                            O feminismo é um movimento pela busca da equidade social, política e econômica entre os
+                            gêneros. Diferente de igualdade, equidade consiste em reconhecer as dificuldades de cada um
+                            e oferecer condições para que todos tenham acesso as mesmas oportunidades, esse é o objetivo
+                            do feminismo. As primeiras exigências desse movimento foram por direitos básicos como
+                            obtenção do voto feminino, educação e inserção no mercado de trabalho. O movimento vem
+                            disseminada a ideia da sororidade, incentivando o apoio entre as mulheres. <br> <br>
+                            Embora já tenham demonstrado diversas vezes suas capacidades e talentos, ainda estamos
+                            inseridos em uma sociedade patriarcal, que se caracteriza pela supervalorização do homem.
+                            Para mudar esse cenário, os movimentos feministas incentivam e encorajam as mulheres a se
+                            posicionarem, desenvolvendo talentos e ocupando espaços e funções que almejam, exigirem o
+                            que é delas por direito e assim aumentando a representatividade, isso é o empoderamento
+                            feminino. Esse empoderamento é necessário e importante, pois as mulheres merecem o mesmo
+                            respeito e oportunidades que são oferecidas aos homens, formando uma sociedade mais justa e
+                            igualitária.
+                        </p>
+
+                        <iframe id="linkindica" width="560" height="315" src="https://www.youtube.com/embed/6RSc_XYezig?start=5"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                     </div>
 
                 </div>
                 <div class="ind">
                     <h2 id="indicacoes">Indicações</h2>
                     <div class="cartaz">
-                        <div class="container">
-                            <img class="poster" src="img/filme2.jpg" alt="filme - AS SUFRAGISTAS">
-                            <p class="indica-titulo">FILME: AS SUFRAGISTAS</p>
-                            <p class="indica-descricao"> 14 (classificação indicativa) 2015 ‧ <br> Drama/Obra de Época ‧
-                                1h 46m
-                                <br>Aborda: a luta pelo voto feminino.
-                            </p>
-                        </div>
+                        <div class="cartaz-content">
+                            <div class="container">
+                                <img class="poster" src="img/filme2.jpg" alt="filme - AS SUFRAGISTAS">
+                                <div>
+                                    <p class="indica-titulo">FILME: AS SUFRAGISTAS</p>
+                                    <p class="indica-descricao"> 14 (classificação indicativa) 2015 ‧ Drama/Obra de
+                                        Época ‧ 1h 46m ‧ Aborda: a luta pelo voto feminino.
+                                    </p>
+                                </div>
+                            </div>
 
-                        <div class="container">
-                            <img id="filme2" class="poster" src="img/filme3.jpg"
-                                alt="FILME (CURTA-METRAGEM): VIROU O JOGO – A HISTÓRIA DE PINTADAS">
-                            <p class="indica-titulo">FILME: VIROU O JOGO</p>
-                            <p class="indica-descricao"> 2012 ‧ Documentário (CURTA-METRAGE-<br>M) ‧ 26m
-                                ‧ Aborda: A mudança no pen-<br>samento de uma sociedade machista.
-                            </p>
-                        </div>
-                        <div class="container">
-                            <img class="poster" src="img/filme4.jpg.crdownload" alt="FILME: O SILÊNCIO DAS INOCENTES">
-                            <p class="indica-titulo">FILME: O SILÊNCIO DAS INOCENTES</p>
-                            <p class="indica-descricao">2010 ‧ Documentário ‧ 52 m Aborda:<br>
-                                A vida e história de mulheres vítimas<br> de violência doméstica.
-                            </p>
-                        </div>
+                            <div class="container">
+                                <img id="filme2" class="poster" src="img/filme3.jpg"
+                                    alt="FILME (CURTA-METRAGEM): VIROU O JOGO – A HISTÓRIA DE PINTADAS">
+                                <div>
+                                    <p class="indica-titulo">FILME: VIROU O JOGO</p>
+                                    <p class="indica-descricao"> 2012 ‧ Documentário (CURTA-METRAGEM) ‧ 26m ‧ Aborda: A
+                                        mudança no pensamento de uma sociedade machista.</p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <img class="poster" src="img/filme4.jpg" alt="FILME: O SILÊNCIO DAS INOCENTES">
+                                <div>
+                                    <p class="indica-titulo">FILME: O SILÊNCIO DAS INOCENTES</p>
+                                    <p class="indica-descricao">2010 ‧ Documentário ‧ 52 m Aborda: A vida e história de
+                                        mulheres vítimas de violência doméstica.
+                                    </p>
+                                </div>
+                            </div>
 
-                        <div class="container">
-                            <img class="poster" src="img/filme5.webp" alt="FILME: VALENTE">
-                            <p class="indica-titulo">FILME: VALENTE</p>
-                            <p class="indica-descricao"> 2012 ‧ Aventura ‧ 1h 33m
-                                Aborda: A que- <br> bra de padrões impostos, representan- <br> do a mulher
-                                contemporânea.
-                            </p>
-                        </div>
 
-                        <div class="container">
-                            <img class="poster" src="img/filme1.jpg" alt="">
-                            <p class="indica-titulo">FILME: ENOLA HOLMES</p>
-                            <p class="indica-descricao">2020 ‧ Aventura ‧ 2h 3m ‧ Aborda: <br> Protagonismo feminino,
-                                liberdade e <br> possibilidade de escolha </p>
-                        </div>
 
-                        <div class="container">
-                            <img class="poster" src="" alt="">
-                            <p class="indica-titulo"></p>
-                            <p class="indica-descricao"></p>
+                            <div class="container">
+                                <img class="poster" src="img/filme1.jpg" alt="">
+                                <div>
+                                    <p class="indica-titulo">FILME: RADIOACTIVE</p>
+                                    <p class="indica-descricao">14 (classificação indicativa) 2015 ‧ Drama/Romance ‧ 1h
+                                        46m
+                                        Aborda: A vida e o trabalho de M. Sklodowska, em meio a uma época machista,
+                                        venceu preconceitos e realizou pesquisas que impactaram o mundo.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="container">
+                                <img class="poster" src="img/filme6.jpg" alt="">
+                                <div>
+                                    <p class="indica-titulo">PESQUISA: DESIGUALDADE DE GÊNERO</p>
+                                    <p class="indica-descricao"> 2019 ‧ Informativa ‧ Meio de publicação: instagram
+                                        (@desigualdade.ifmg.op)
+                                        Aborda: A desigualdade de gênero existente no IFMG, campus Ouro Preto.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="container">
+                                <img class="poster" src="img/filme7.png" alt="">
+                                <div>
+                                    <p class="indica-titulo">LIVRO: A GUERRA NÃO TEM ROSTO DE MULHER</p>
+                                    <p class="indica-descricao"> Livre (classificação indicativa) 2016 ‧ Drama
+                                        informativo ‧ Não-ficção ‧
+                                        Aborda: A participação das mulheres em conflitos da Segunda Guerra Mundial e as
+                                        dificuldades enfrentadas por elas.
+                                    </p>
+                                </div>
+                            </div>
+
+
                         </div>
                     </div>
 
@@ -290,17 +405,12 @@
             </div>
 
     </footer>
-    <script>
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/js/splide.min.js"
+        integrity="sha256-qtSu/7zFd1zx2GaGN7yAuWyIXuxC7IVrfSpncRDxUII=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
