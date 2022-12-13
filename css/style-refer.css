@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@300&family=Righteous&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  width: 100%;
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+}
+
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  max-width: 100%;
+}
+
+.header-main {
+  z-index: 99;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.897);
+  border-bottom: 0.05px solid rgb(218, 218, 218);
+  width: 100%;
+  height: 120px;
+}
+
+.header-main-img {
+  height: 100%;
+}
+
+.header-nav {
+  display: flex;
+}
+
+.header-nav-item {
+  font-size: 25px;
+  cursor: pointer;
+  padding: 15px;
+}
+
+.button-menu-open,
+.menu-logo-mobile {
+  display: none;
+}
+
+.menu-navegacao {
+  display: inline-flex;
+}
+.menu-navegacao ul {
+  display: flex;
+}
+
+@media screen and (max-width: 850px) {
+  .button-menu-open {
+    position: absolute;
+    left: 2rem;
+    top: 50%;
+    width: 50px;
+    background-color: transparent;
+    font-size: 2rem;
+    border: none;
+    height: 50px;
+    transform: translateY(-50%);
+    display: block;
+    cursor: pointer;
+  }
+  .header-nav {
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    background-color: #e3b1c8;
+    overflow-x: auto;
+    width: 300px;
+    height: 100vh;
+    transition: transform 0.4s linear;
+    transform: translateX(-100%);
+  }
+  .menu-logo-mobile {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+  }
+  .menu-logo-mobile button {
+    width: 50px;
+    background-color: transparent;
+    font-size: 2rem;
+    border: none;
+    height: 50px;
+    cursor: pointer;
+  }
+  .menu-logo-mobile img {
+    height: 100%;
+  }
+  .active-menu {
+    transform: translateX(0%) !important;
+  }
+  .menu-navegacao {
+    display: flex !important;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  .menu-navegacao ul {
+    display: block;
+    width: 100%;
+  }
+  .menu-navegacao li {
+    display: flex;
+    justify-items: center;
+    width: 100%;
+    height: 50px;
+    margin: 0.5rem 0;
+  }
+  .menu-navegacao li:hover {
+    background-color: #836372;
+  }
+  
+  .menu-navegacao a {
+    margin-top: -0.5rem;
+  }
+}
+a {
+  color: black;
+}
+
+.content-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Bebas Neue", cursive;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: min(90px, 15vw);
+  padding: 20px;
+} 
+#referencias{
+  text-transform: uppercase;
+  padding-right: 25px;
+
+}
+.refer{
+    background-color: #e3b1c8;
+    width: 95%;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 5px;
+    padding: 15px;
+    margin-bottom: 50px;
+  }
+.text-ref{
+  width: 100%;
+  word-wrap: break-word;
+
+}
