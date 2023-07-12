@@ -1,2 +1,2 @@
 # Proj.Geo.WebSite
-Trabalho disciplinar para a disciplina de Geografia
+Trabalho interdisciplinar para a disciplina de Geografia
