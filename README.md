@@ -1,5 +1,5 @@
 
-# Projeto Diversidade Cultural - Geografia II: Igualdade de Gênero
+# Projeto Diversidade Cultural - Geografia II: Desigualdade de Gênero
 
 ## Descrição do Projeto
 
@@ -30,12 +30,12 @@ O website contém as seguintes seções:
 
 ## Equipe do Projeto
 
-- Gustavo Santos - Desenvolvedor e Pesquisador
-- Sara Cananda - Desenvolvedora e Pesquisadora
-- Agnes Rocha - Pesquisadora
-- Nicolle Camargo - Pesquisadora
-- Maria Heloisa - Pesquisadora
-- Agnes Rocha - Pesquisadora
+- [Gustavo Santos](https://github.com/guxtasp) - Desenvolvedor e Pesquisador
+- [Sara Cananda](https://github.com/saracananda) - Desenvolvedora e Pesquisadora
+- [Agnes Rocha](https://github.com/agnesrocha06) - Pesquisadora
+- [Nicolle Camargo](https://github.com/nicolle-camargo) - Pesquisadora
+- [Maria Heloisa](https://github.com/helloisasm) - Pesquisadora
+- [Caroline Macedo](https://github.com/carolinemonteirox) - Pesquisadora
 
 
 ---
