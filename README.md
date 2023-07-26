@@ -34,9 +34,8 @@ O website contém as seguintes seções:
 - [Sara Cananda](https://github.com/saracananda) - Desenvolvedora e Pesquisadora
 - [Agnes Rocha](https://github.com/agnesrocha06) - Pesquisadora
 - [Nicolle Camargo](https://github.com/nicolle-camargo) - Pesquisadora
-- [Maria Heloisa](https://github.com/helloisasm) - Pesquisadora
 - [Caroline Macedo](https://github.com/carolinemonteirox) - Pesquisadora
-
+- [Maria Heloisa](https://github.com/helloisasm) - Pesquisadora
 
 ---
 _Descrição escrita por Gustavo Santos_
