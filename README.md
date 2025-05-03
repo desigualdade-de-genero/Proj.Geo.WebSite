@@ -31,7 +31,7 @@ O website contém as seguintes seções:
 ## Equipe do Projeto
 
 - [Gustavo Santos](https://github.com/guxtasp) - Desenvolvedor e Pesquisador
-- [Sara Cananda](https://github.com/saracananda) - Desenvolvedora e Pesquisadora
+- [Sara Cananda](https://github.com/saracananda) - Pesquisadora
 - [Agnes Rocha](https://github.com/agnesrocha06) - Pesquisadora
 - [Nicolle Camargo](https://github.com/nicolle-camargo) - Pesquisadora
 - [Caroline Macedo](https://github.com/carolinemonteirox) - Pesquisadora
